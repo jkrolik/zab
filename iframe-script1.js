@@ -4,7 +4,7 @@ function createModal() {
     const modalContent = createModalContent();
     const closeModal = createCloseModal();
     const iframeContainer = createIframeContainer();
-    const iframe = createIframe('https://hcm55preview.sapsf.eu/xi/ui/genericobject/pages/mdf/mdf.xhtml?&#t=cust_ExternalTrainingDetail&n=1');
+    const iframe = createIframe('https://hcm55preview.sapsf.eu/xi/ui/genericobject/pages/mdf/mdf.xhtml?&#t=cust_ExternalTraining&n=1');
 
     //build html
     document.body.appendChild(background);
@@ -157,4 +157,5 @@ function handleWindowClick(event, background, iframeContainer) {
 }
 
 //start script
+
 createModal();
