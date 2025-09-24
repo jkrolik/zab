@@ -69,7 +69,7 @@ function createIframe(src) {
     iframe.id = 'iframe';
     iframe.src = src;
     iframe.style.width = '100%';
-    iframe.style.height = '500px';
+    iframe.style.height = '700px';
     iframe.style.border = 'none';
     return iframe;
 }
@@ -159,4 +159,5 @@ function handleWindowClick(event, background, iframeContainer) {
 //start script
 
 createModal();
+
 
