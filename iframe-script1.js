@@ -19,6 +19,11 @@ function createModal() {
     closeModal.addEventListener('click', () => handleCloseModalClick(background, iframeContainer));
     window.addEventListener('click', (event) => handleWindowClick(event, background, iframeContainer));
     setupAcceptButtonListener(iframe, background, iframeContainer);
+
+    
+modalContent.style.height = 'auto';
+modalContent.style.maxHeight = '95vh'; 
+
 }
 
 function createBackground() {
@@ -62,6 +67,11 @@ function createIframeContainer() {
     const iframeContainer = document.createElement('div');
     iframeContainer.id = 'iframeContainer';
     return iframeContainer;
+    
+iframeContainer.style.height = 'auto';
+iframeContainer.style.maxHeight = '90vh'; // lub np. 1000px
+iframeContainer.style.overflow = 'hidden'; // lub 'auto' jeśli chcesz scroll
+
 }
 
 function createIframe(src) {
@@ -159,6 +169,7 @@ function handleWindowClick(event, background, iframeContainer) {
 //start script
 
 createModal();
+
 
 
 
