@@ -22,7 +22,7 @@ function createModal() {
 
     
 modalContent.style.height = 'auto';
-modalContent.style.maxHeight = '95vh'; 
+modalContent.style.maxHeight = '100vh'; 
 
 }
 
@@ -45,7 +45,7 @@ function createBackground() {
 function createModalContent() {
     const modalContent = document.createElement('div');
     modalContent.style.backgroundColor = '#fefefe';
-    modalContent.style.margin = '2% auto';
+    modalContent.style.margin = '4% auto';
     modalContent.style.padding = '20px';
     modalContent.style.border = '1px solid #888';
     modalContent.style.width = '70%';
@@ -169,6 +169,7 @@ function handleWindowClick(event, background, iframeContainer) {
 //start script
 
 createModal();
+
 
 
 
