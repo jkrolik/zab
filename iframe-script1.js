@@ -48,7 +48,7 @@ function createModalContent() {
     modalContent.style.margin = '4% auto';
     modalContent.style.padding = '20px';
     modalContent.style.border = '1px solid #888';
-    modalContent.style.width = '70%';
+    modalContent.style.width = '100vw';
     modalContent.style.borderRadius = '.75rem';
     return modalContent;
 }
@@ -169,6 +169,7 @@ function handleWindowClick(event, background, iframeContainer) {
 //start script
 
 createModal();
+
 
 
 
