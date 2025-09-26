@@ -40,10 +40,10 @@ function createBackground() {
 function createModalContent() {
     const modalContent = document.createElement('div');
     modalContent.style.backgroundColor = '#fefefe';
-    modalContent.style.margin = '2% auto';
+    modalContent.style.margin = '5% auto';
     modalContent.style.padding = '20px';
     modalContent.style.border = '1px solid #888';
-    modalContent.style.width = '70%';
+    modalContent.style.width = '60%';
     modalContent.style.borderRadius = '.75rem';
     return modalContent;
 }
@@ -69,7 +69,7 @@ function createIframe(src) {
     iframe.id = 'iframe';
     iframe.src = src;
     iframe.style.width = '100%';
-    iframe.style.height = '100vh';
+    iframe.style.height = '90vh';
     iframe.style.border = 'none';
     return iframe;
 }
@@ -159,6 +159,7 @@ function handleWindowClick(event, background, iframeContainer) {
 //start script
 
 createModal();
+
 
 
 
